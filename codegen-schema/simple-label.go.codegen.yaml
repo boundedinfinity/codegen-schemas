@@ -1,0 +1,7 @@
+mappings:
+    go:
+        package: boundedinfinity/example
+        rootDir: example
+        replace:
+            https://www.boundedinfinity.com/schema: boundedinfinity/example
+

@@ -1,0 +1,7 @@
+operations:
+    retreive:
+        input: https://www.boundedinfinity.com/schema/label/simple/retrieve-request
+        output: https://www.boundedinfinity.com/schema/label/simple/retrieve-response
+    create:
+        input: https://www.boundedinfinity.com/schema/label/simple/create-request
+        output: https://www.boundedinfinity.com/schema/label/simple/create-response

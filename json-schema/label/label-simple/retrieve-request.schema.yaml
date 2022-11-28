@@ -1,0 +1,9 @@
+$id: https://www.boundedinfinity.com/schema/label/simple/retrieve-request
+$schema: https://json-schema.org/draft/2020-12/schema
+description: A simple label retrieve request
+type: object
+properties:
+    trackingId:
+        type: string
+    term:
+        type: string

@@ -1,4 +1,4 @@
-$id: https://www.boundedinfinity.com/schema/label/labeled-date
+$id: json-schema/label/labeled-date
 $schema: https://json-schema.org/draft/2020-12/schema
 description: A simple label
 type: object
@@ -11,7 +11,7 @@ properties:
             primary: true
             generated: increment
     label:
-        $ref: https://www.boundedinfinity.com/schema/label/label
+        $ref: json-schema/label/label
         persist:
             relation: many-to-one
             eager: true

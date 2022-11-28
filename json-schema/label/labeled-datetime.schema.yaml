@@ -1,4 +1,4 @@
-$id: https://www.boundedinfinity.com/schema/label/labeled-datetime
+$id: json-schema/label/labeled-datetime
 $schema: https://json-schema.org/draft/2020-12/schema
 description: A simple key value label where the value is a datetime (timestamp).
 type: object
@@ -11,7 +11,7 @@ properties:
             primary: true
             generated: increment
     label:
-        $ref: https://www.boundedinfinity.com/schema/label/label
+        $ref: json-schema/label/label
     datetime:
         type: string
         format: date

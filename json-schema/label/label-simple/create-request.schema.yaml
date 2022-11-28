@@ -1,0 +1,14 @@
+$id: https://www.boundedinfinity.com/schema/label/simple/create-request
+$schema: https://json-schema.org/draft/2020-12/schema
+description: A simple label create request
+type: object
+properties:
+    trackingId:
+        type: string
+    labels:
+        type: array
+        items:
+            $ref: https://www.boundedinfinity.com/schema/label/simple/label
+required:
+    - trackingId
+    - labels

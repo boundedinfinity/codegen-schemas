@@ -1,0 +1,18 @@
+$id: https://www.boundedinfinity.com/schema/label/simple/create-response
+$schema: https://json-schema.org/draft/2020-12/schema
+description: A simple label create response
+type: object
+properties:
+    trackingId:
+        type: string
+    labels:
+        type: array
+        items:
+            $ref: https://www.boundedinfinity.com/schema/label/simple/label
+    errors:
+        type: array
+        items:
+            type: string
+required:
+    - trackingId
+    - labels
