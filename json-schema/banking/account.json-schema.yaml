@@ -6,22 +6,25 @@ properties:
     name:
         description: The name of the account
         type: string
+    alias:
+        description: An alias for the account
+        type: string
     description:
         description: The description of the account
         type: string
-    number:
-        description: The Account Number
+    account-number:
+        description: The bank account number
         type: string
     type:
         $ref: https://www.boundedinfinity.com/schema/banking/account-type
-    bank:
+    bank-id:
+        $ref: https://www.boundedinfinity.com/schema/banking/bank-id
+    bank-info:
         $ref: https://www.boundedinfinity.com/schema/banking/bank
-    swift-code:
-        type: string
-    iban-number:
-        type: string
+    swift:
+        $ref: https://www.boundedinfinity.com/schema/banking/swift
+    iban:
+        $ref: https://www.boundedinfinity.com/schema/banking/iban
 required:
-    - name
     - account-number
-    - type
-    - bank
+    - bank-id
