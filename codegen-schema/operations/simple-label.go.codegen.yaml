@@ -1,0 +1,7 @@
+info:
+    package: boundedinfinity/example
+    rootDir: example
+mappings:
+    string: string
+    integer: int
+    boolean: bool

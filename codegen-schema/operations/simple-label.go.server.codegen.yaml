@@ -1,0 +1,3 @@
+templates:
+    files:
+        - path: file://../../../codegen-templates/templates/go/types

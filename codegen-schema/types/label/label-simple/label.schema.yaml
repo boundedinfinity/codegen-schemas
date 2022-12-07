@@ -1,0 +1,15 @@
+id: https://www.boundedinfinity.com/schema/label/label-simple/label
+type: object
+description: A simple label
+properties:
+    -   name: id
+        type: uuid
+    -   name: name
+        type: string
+        min: 2
+        max: 200
+        required: true
+    -   name: description
+        type: string
+        max: 1000 
+      

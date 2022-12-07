@@ -1,0 +1,11 @@
+id: https://www.boundedinfinity.com/schema/label/simple/create-request
+type: object
+description: A simple label create request
+properties:
+    -   name: tracking-id
+        type: string
+        required: true
+    -   type: array
+        items: https://www.boundedinfinity.com/schema/label/label-simple/label
+        required: true
+        min: 1

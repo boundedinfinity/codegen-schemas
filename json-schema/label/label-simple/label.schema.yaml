@@ -7,9 +7,6 @@ properties:
         description: The label ID
         type: string
         format: uuid
-        persist:
-            primary: true
-            generated: increment
     name:
         description: The label name
         type: string
