@@ -2,12 +2,11 @@ id: https://www.boundedinfinity.com/schema/label/label-simple/label
 type: object
 description: A simple label
 properties:
-    -   name: id
-        type: uuid
+    -   ref: https://www.boundedinfinity.com/schema/label/label-simple/label-id
     -   name: name
         type: string
         min: 2
-        max: 200
+        max: 50
         required: true
     -   name: description
         type: string

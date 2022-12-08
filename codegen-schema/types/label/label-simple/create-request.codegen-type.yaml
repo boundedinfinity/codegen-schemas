@@ -7,6 +7,6 @@ properties:
         required: true
     -   type: array
         items: 
-            type: https://www.boundedinfinity.com/schema/label/label-simple/label
+            ref: https://www.boundedinfinity.com/schema/label/label-simple/label
         required: true
         min: 1

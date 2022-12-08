@@ -1,0 +1,8 @@
+id: https://www.boundedinfinity.com/schema/label/label-simple/label-id
+type: object
+description: A simple label ID
+properties:
+    -   name: id
+        type: url
+
+    

@@ -6,9 +6,12 @@ properties:
         type: string
         required: true
     -   type: array
-        items: https://www.boundedinfinity.com/schema/label/label-simple/label
+        name: labels
+        items: 
+            ref: https://www.boundedinfinity.com/schema/label/label-simple/label
         required: true
         min: 1
     -   name: errors
         type: array
-        items: string
+        items: 
+            type: string
