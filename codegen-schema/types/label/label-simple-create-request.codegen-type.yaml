@@ -1,4 +1,4 @@
-id: https://www.boundedinfinity.com/schema/label/simple/create-request
+id: https://www.boundedinfinity.com/schema/label/label-simple-create-request
 type: object
 description: A simple label create request
 properties:
@@ -7,6 +7,6 @@ properties:
         required: true
     -   type: array
         items: 
-            ref: https://www.boundedinfinity.com/schema/label/label-simple/label
+            ref: https://www.boundedinfinity.com/schema/label/label-simple
         required: true
         min: 1

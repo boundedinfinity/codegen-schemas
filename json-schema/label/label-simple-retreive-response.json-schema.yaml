@@ -1,18 +1,18 @@
-$id: https://www.boundedinfinity.com/schema/label/simple/create-response
+$id: https://www.boundedinfinity.com/schema/label/label-simple-retrieve-response
 $schema: https://json-schema.org/draft/2020-12/schema
-description: A simple label create response
+description: A simple label retrieve response
 type: object
 properties:
-    trackingId:
+    tracking-id:
         type: string
     labels:
         type: array
         items:
-            $ref: https://www.boundedinfinity.com/schema/label/simple/label
+            $ref: https://www.boundedinfinity.com/schema/label/label-simple
     errors:
         type: array
         items:
             type: string
 required:
-    - trackingId
+    - tracking-id
     - labels

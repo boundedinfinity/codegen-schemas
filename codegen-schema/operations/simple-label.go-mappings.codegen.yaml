@@ -1,0 +1,4 @@
+mappings:
+    string: string
+    integer: int
+    boolean: bool
