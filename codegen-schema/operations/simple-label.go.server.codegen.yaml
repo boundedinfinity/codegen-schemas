@@ -1,6 +1,6 @@
 info:
     namespace: boundedinfinity/example
-    rootDir: example
+    destDir: /tmp/codegen/example-server
 templates:    
     files:
         - path: file://../../../codegen-templates/templates/go/types
