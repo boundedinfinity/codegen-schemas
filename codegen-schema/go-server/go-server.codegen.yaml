@@ -1,8 +1,11 @@
 info:
     namespace: boundedinfinity/example-server
-    destDir: /tmp/codegen/example-server
+    destDir: /tmp/codegen/example-server-go
     # formatSource: false
     templateDump: true
+schemas:
+    - path: file://../common
+    - path: file://../json-schema/label
 templates:    
     files:
         - path: file://../../../codegen-templates/templates/go/types

@@ -1,5 +1,0 @@
-mappings:
-    string: string
-    integer: int
-    boolean: bool
-    float: float
