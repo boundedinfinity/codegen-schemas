@@ -1,0 +1,12 @@
+info:
+    namespace: boundedinfinity/example-server
+    destDir: /tmp/codegen/example-server-go
+    formatSource: false
+    templateDump: true
+schemas:
+    - path: file://${SCHEMA_DIR}/codegen-schema/common
+    - path: file://${SCHEMA_DIR}/codegen-schema/types
+    - path: file://${SCHEMA_DIR}/json-schema/label
+templates:    
+    files:
+        - path: file://${TEMPLATES_DIR}/templates/go/types
