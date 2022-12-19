@@ -1,9 +1,8 @@
-id: https://www.boundedinfinity.com/schema/label/label-simple-create-response
+id: https://www.boundedinfinity.com/schema/label/label-simple-delete-response
 type: object
-description: A simple label create response
+description: A simple label delete response
 properties:
-    -   name: tracking-id
-        type: string
+    -   ref: https://www.boundedinfinity.com/schema/util/tracking-id
         required: true
     -   type: array
         name: labels

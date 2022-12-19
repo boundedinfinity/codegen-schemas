@@ -1,0 +1,10 @@
+operations:
+    -   name: retrieve
+        input: https://www.boundedinfinity.com/schema/label/label-simple-retrieve-request
+        output: https://www.boundedinfinity.com/schema/label/label-simple-retrieve-response
+    -   name: create
+        input: https://www.boundedinfinity.com/schema/label/label-simple-create-request
+        output: https://www.boundedinfinity.com/schema/label/label-simple-create-response
+    -   name: delete
+        input: https://www.boundedinfinity.com/schema/label/label-simple-delete-request
+        output: https://www.boundedinfinity.com/schema/label/label-simple-delete-response

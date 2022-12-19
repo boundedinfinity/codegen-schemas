@@ -1,0 +1,16 @@
+id: https://www.boundedinfinity.com/schema/label/label-simple-create-response
+type: object
+description: A simple label create response
+properties:
+    -   ref: https://www.boundedinfinity.com/schema/util/tracking-id
+        required: true
+    -   type: array
+        name: labels
+        items: 
+            ref: https://www.boundedinfinity.com/schema/label/label-simple
+        required: true
+        min: 1
+    -   name: errors
+        type: array
+        items: 
+            type: string
