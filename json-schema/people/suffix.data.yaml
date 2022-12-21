@@ -27,3 +27,11 @@
 -   id:  https://www.boundedinfinity.com/schema/people/suffix/scb
     abbreviation: ScB
     $ref: https://www.boundedinfinity.com/schema/people/scb
+-   id:  https://www.boundedinfinity.com/schema/people/suffix/mba
+    title: Master of Business Administration
+    abbreviation: MBA
+    reference: https://en.wikipedia.org/wiki/Master_of_Business_Administration
+-   id: https://www.boundedinfinity.com/schema/people/suffix/mec
+    title: Master of Economics
+    abbreviation: MEc
+    reference: https://en.wikipedia.org/wiki/Master_of_Economics
