@@ -5,7 +5,7 @@ info:
     templateDump: true
     delimiter: square
 schemas:
-    -   path: ${SCHEMA_DIR}/codegen-schema/common
+    -   path: ${SCHEMA_DIR}/codegen-schema/operations/label
     -   path: ${SCHEMA_DIR}/codegen-schema/types
     -   path: ${SCHEMA_DIR}/json-schema/types
 templates:    
