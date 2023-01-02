@@ -1,12 +1,12 @@
 info:
     namespace: boundedinfinity/example-server
-    destDir: /tmp/codegen/example-server-ts
-    formatSource: false
-    templateDump: true
+    dest-dir: /tmp/codegen/example-server-ts
+    format-source: false
+    template-dump: true
 schemas:
-    - path: ${SCHEMA_DIR}/codegen-schema/common
-    - path: ${SCHEMA_DIR}/codegen-schema/types
-    - path: ${SCHEMA_DIR}/json-schema/label
+    - source-path: ${SCHEMA_DIR}/codegen-schema/common
+    - source-path: ${SCHEMA_DIR}/codegen-schema/types
+    - source-path: ${SCHEMA_DIR}/json-schema/label
 templates:    
     files:
         - path: ${TEMPLATES_DIR}/templates/typescript/types

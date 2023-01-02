@@ -1,13 +1,14 @@
 info:
     namespace: boundedinfinity/example-server
-    destDir: /tmp/codegen/example-server-go
-    formatSource: false
-    templateDump: true
+    dest-dir: /tmp/codegen/example-server-go
+    format-source: false
+    template-dump: true
     delimiter: square
 schemas:
-    -   path: ${SCHEMA_DIR}/codegen-schema/operations/label
-    -   path: ${SCHEMA_DIR}/codegen-schema/types
-    -   path: ${SCHEMA_DIR}/json-schema/types
+    -   source-path: ${SCHEMA_DIR}/codegen-schema/operations/label
+    -   source-path: ${SCHEMA_DIR}/codegen-schema/operations/auth
+    -   source-path: ${SCHEMA_DIR}/codegen-schema/types
+    -   source-path: ${SCHEMA_DIR}/json-schema/types
 templates:    
     files:
         - path: ${TEMPLATES_DIR}/templates/go/types
