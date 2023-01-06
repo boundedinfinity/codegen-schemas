@@ -7,6 +7,8 @@ info:
 types:
     -   source-path: ${SCHEMA_DIR}/codegen-schema/operations/service
     -   source-path: ${SCHEMA_DIR}/codegen-schema/types
-templates:    
-    files:
-        - path: ${TEMPLATES_DIR}/templates/go/types
+operations:
+    -   source-path: ${SCHEMA_DIR}/codegen-schema/operations
+templates:
+    types:
+        -   source-path: ${TEMPLATES_DIR}/templates/go/types
