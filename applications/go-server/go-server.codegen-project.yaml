@@ -5,10 +5,11 @@ info:
     template-dump: true
     delimiter: square
 types:
-    -   source-path: ${SCHEMA_DIR}/codegen-schema/operations/service
     -   source-path: ${SCHEMA_DIR}/codegen-schema/types
 operations:
     -   source-path: ${SCHEMA_DIR}/codegen-schema/operations
 templates:
     types:
         -   source-path: ${TEMPLATES_DIR}/templates/go/types
+    operations:
+        -   source-path: ${TEMPLATES_DIR}/templates/go/server

@@ -5,7 +5,6 @@ info:
     template-dump: true
     delimiter: square
 types:
-    -   source-path: ${SCHEMA_DIR}/codegen-schema/common
     -   source-path: ${SCHEMA_DIR}/codegen-schema/types
 operations:
     -   source-path: ${SCHEMA_DIR}/codegen-schema/operations
