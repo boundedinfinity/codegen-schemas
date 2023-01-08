@@ -1,0 +1,6 @@
+types:
+    -   id: https://www.boundedinfinity.com/schema/util/errors
+        description: Errors
+        type: array
+        items: 
+            type: string

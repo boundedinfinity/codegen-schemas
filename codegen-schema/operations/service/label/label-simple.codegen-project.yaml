@@ -1,15 +1,24 @@
 operations:
-    -   name: retrieve
-        input:  
-            ref: https://www.boundedinfinity.com/schema/label/label-simple-retrieve-request
-        output:  
-            ref: https://www.boundedinfinity.com/schema/label/label-simple-retrieve-response
-    -   name: create
+    -   id: https://www.boundedinfinity.com/schema/label/label-simple-create
+        name: create
         input:  
             ref: https://www.boundedinfinity.com/schema/label/label-simple-create-request
         output:  
             ref: https://www.boundedinfinity.com/schema/label/label-simple-create-response
-    -   name: delete
+    -   id: https://www.boundedinfinity.com/schema/label/label-simple-read
+        name: read
+        input:  
+            ref: https://www.boundedinfinity.com/schema/label/label-simple-read-request
+        output:  
+            ref: https://www.boundedinfinity.com/schema/label/label-simple-read-response
+    -   id: https://www.boundedinfinity.com/schema/label/label-simple-update
+        name: read
+        input:  
+            ref: https://www.boundedinfinity.com/schema/label/label-simple-update-request
+        output:  
+            ref: https://www.boundedinfinity.com/schema/label/label-simple-update-response
+    -   id: https://www.boundedinfinity.com/schema/label/label-simple-delete
+        name: delete
         input:  
             ref: https://www.boundedinfinity.com/schema/label/label-simple-delete-request
         output:  
